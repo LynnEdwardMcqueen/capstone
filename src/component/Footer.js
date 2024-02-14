@@ -5,6 +5,7 @@ function Footer() {
     return (
         <footer>
             <ul>
+                Doormat Navigation
                 <li>
                     <img id = "rotate" src = {logo} width = "221" height = "290" alt = "Big Logo" />
                 </li>
@@ -28,6 +29,11 @@ function Footer() {
                 </li>
   
 
+                
+            </ul>
+
+            <h3></h3>
+            <ul>
                 
             </ul>
             Footer
