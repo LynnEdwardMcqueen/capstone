@@ -1,4 +1,5 @@
 import logo from "./../assets/images/Logo.svg"
+import "./Navigation.css"
 
 function Nav() {
     return (
@@ -27,7 +28,6 @@ function Nav() {
                     <a href = "#">Login</a>
                 </li>
             </ul>
-            NAV
         </nav>
     )
 }

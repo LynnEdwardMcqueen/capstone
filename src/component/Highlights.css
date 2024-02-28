@@ -1,0 +1,25 @@
+#highlights-section {
+    height :  700px;
+    margin-top: 60px;
+    /* background-color: #ffffff; */
+}
+
+
+
+#highlights-section h1 {
+    font-size : 40px;
+    grid-column: 3 / span 5;
+}
+
+#highlights-section  button {
+    grid-column: 9 / span 2;
+    justify-self: stretch;
+    align-self: center;
+}
+
+#highlights-section .grid-container > div {
+    grid-column: 3 / span 8;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}

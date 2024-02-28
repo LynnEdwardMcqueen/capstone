@@ -1,0 +1,50 @@
+.testimonial-grid-container {
+    display: grid; 
+   /* display: flex; */
+    max-width: 1300px;
+    margin: 0 auto;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    align-items: stretch;
+    column-gap: 20px;
+}
+section#testimonials {
+    height : 560px;
+}
+
+section#testimonials h1 {
+    padding-top : 140px;
+    font-size : 40px;
+    text-align: center;
+}
+
+
+#foo {
+    grid-column: 3 / span 2; 
+    /* display: flex; */
+    
+
+}
+
+#foo2 {
+    grid-column: span 2; 
+    /* display: flex; */
+}
+
+#foo3 {
+    grid-column: span 2; 
+    /* display: flex; */
+}
+
+#foo1 {
+    grid-column: span 2; 
+    /* display: flex; */
+}
+
+div.flex-container {
+    justify-content: center;
+}
+/* section#testimonials .testimonial-grid-container div {
+    grid-column: span 3;
+} */
+

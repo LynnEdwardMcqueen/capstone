@@ -7,7 +7,7 @@ function Footer() {
             <ul>
                 Doormat Navigation
                 <li>
-                    <img id = "rotate" src = {logo} width = "221" height = "290" alt = "Big Logo" />
+                    <img id = "rotate" src = {logo} width = "221" height = "290" alt = "Big Logo"  />
                 </li>
                 <li>
                     <a href = "#">Home</a>

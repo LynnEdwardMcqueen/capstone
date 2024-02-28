@@ -1,0 +1,9 @@
+button {
+    height : 60px;
+    border: none;
+    /* grid-column-start: var(--button-begin-column); */
+    border-radius : 16px;
+    font-size: 18px;
+    font-weight: 700;
+
+}

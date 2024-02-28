@@ -10,14 +10,14 @@ import './App.css';
 
 function App() {
   return (
-    <>
+    <main >
       <Navigation />
       <Hero />
       <Highlights />
-      <Testimonials />
+      <Testimonials style = {{border: "4px solid blue"}}/>
       <About />
       <Footer />
-    </>
+    </main>
   );
 
 }

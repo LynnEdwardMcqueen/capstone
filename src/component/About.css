@@ -1,0 +1,56 @@
+#about-section {
+    height:  585px;
+}
+
+#about-narrative {
+    grid-column: 3 / span 4;
+    grid-row: 1;
+}
+
+div#about-narrative h1 {
+    padding-top: 96px;
+    margin: 0 0;
+}
+
+div#about-narrative h2 {
+    /* padding-top: 40px; */
+    margin: 0 0;
+}
+
+div#about-narrative p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#about-chef-photos {
+    grid-column:  7 / span 4;
+}
+.about-chef-photos {
+    max-width: 272px;
+    height: 338px;
+    object-fit: cover;
+}
+
+div.about-grid-rows img:nth-child(2) {
+    grid-column: 7 / span 3;
+    grid-row: 3;
+    align-self: end;
+    justify-self: start;
+    object-position: right;
+    border-radius: 16px;
+    
+}
+
+div.about-grid-rows img:nth-child(3) {
+    grid-column: 8 / span 3;
+    grid-row: 2;
+    align-self: start;
+    justify-self: end;
+    object-position: 80%;
+    border-radius: 16px;
+
+}
+
+.about-grid-rows {
+    grid-template-rows: 128px 128px auto;
+}

@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Markazi');
+
+
+main {
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: Markazi;
+  font-size: 64px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-family: Markazi;
+  font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  font-family: Karla;
+  font-weight: 500;
+}
+.highlight-color-black-text {
+  color:#333333;
+}
+
+. {
+ /* background-color: #edefee; */
+  background-color: #edefee;
+}
+
+.highlight-color-off-white-text {
+  color: #edefee;
+}
+
+.highlight-color-off-white {
+  background-color: #edefee;
+}
+
+.secondary-color-dark-tan {
+  background-color: #ee9972;
+}
+.secondary-color-dark-tan-text {
+  color: #ee9972;
+}
+
+.primary-color-green {
+  background-color: #495e57;
+}
+
+.primary-color-black-text {
+  color: #333333;
+}
+
+.primary-color-yellow {
+  background-color: #F4CE14;
+}
+
+.primary-color-yellow-text {
+  color: #F4CE14;
+}
+
+
+
+.grid-wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  grid-template-columns: repeat(12, 1fr);
+  height: 100%;
+}
+
+.flex-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  column-gap: 20px;
 }
