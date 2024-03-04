@@ -2,3 +2,7 @@
 #rotate {
     transform: rotate(-90deg)
 }
+
+#footer-section {
+    height:  417px;
+}

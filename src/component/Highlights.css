@@ -8,6 +8,7 @@
 
 #highlights-section h1 {
     font-size : 40px;
+    padding-top: 26px;
     grid-column: 3 / span 5;
 }
 
@@ -17,9 +18,17 @@
     align-self: center;
 }
 
-#highlights-section .grid-container > div {
+/* #highlights-section .grid-container > div {
     grid-column: 3 / span 8;
     display: flex;
     justify-content: space-between;
     column-gap: 20px;
+} */
+
+div#menu-item-card-container {
+    grid-column: 3 / span 8;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+
 }

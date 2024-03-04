@@ -3,40 +3,42 @@ import logo from "./../assets/images/Logo.svg"
 
 function Footer() {
     return (
-        <footer>
-            <ul>
-                Doormat Navigation
-                <li>
-                    <img id = "rotate" src = {logo} width = "221" height = "290" alt = "Big Logo"  />
-                </li>
-                <li>
-                    <a href = "#">Home</a>
-                </li>
-                <li>
-                    <a href = "#">About</a>
-                </li>
-                <li>
-                    <a href = "#">Menu</a>
-                </li>
-                <li>
-                    <a href = "#">Reservations</a>
-                </li>
-                <li>
-                    <a href = "#">Order Online</a>
-                </li>
-                <li>
-                    <a href = "#">Login</a>
-                </li>
-  
+        <footer id = "footer-section" className = "primary-color-green" >
+            <div id = "site-map">
+                <ul>
+                    <li>
+                        <img id = "rotate" src = {logo} width = "221" height = "290" alt = "Big Logo"  />
+                    </li>
+                    <li>
+                        <a href = "#">Home</a>
+                    </li>
+                    <li>
+                        <a href = "#">About</a>
+                    </li>
+                    <li>
+                        <a href = "#">Menu</a>
+                    </li>
+                    <li>
+                        <a href = "#">Reservations</a>
+                    </li>
+                    <li>
+                        <a href = "#">Order Online</a>
+                    </li>
+                    <li>
+                        <a href = "#">Login</a>
+                    </li>
+                </ul>
+            </div>
 
-                
-            </ul>
+            <div id = "contact-info">
+                Contact Info
+            </div>
 
-            <h3></h3>
-            <ul>
-                
-            </ul>
-            Footer
+            <div id = "social-media" >
+                Social Media
+            </div>
+
+         
         </footer>
     )
 }

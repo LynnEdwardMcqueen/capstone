@@ -5,7 +5,6 @@ import Button from "./Button"
 function Hero() {
     return(
         <section id = "hero-section" class = "primary-color-green" >
-            <div className = "grid-wrapper" >
                 <div className = "grid-container" >
                     <div id = "hero-text">
                         <h1 id = "hero-title" className = "primary-color-yellow-text">Little Lemon</h1>
@@ -15,11 +14,9 @@ function Hero() {
                     </div>
 
                     <div id = "hero-image-container">
-                        <img src = {bruschetta} id = "hero-image" />
+                        <img src = {bruschetta} id = "hero-image"    />
                     </div>
                 </div>
-            </div>
- 
        </section>
     )
 }

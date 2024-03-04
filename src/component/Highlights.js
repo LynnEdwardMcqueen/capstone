@@ -12,17 +12,14 @@ function Highlights() {
 
     return(
         <section id = "highlights-section" >
-            <div className = "grid-wrapper">
-                <div className = "grid-container" >
-                    <h1 className = "primary-color-black-text" >This week's specials!</h1>
-                    <button className = "primary-color-black-text primary-color-yellow">Online Menu</button>
-                    <div>
-                        <MenuItemCard item = "Greek Salad" price = "$12.99" description =  {greekSaladDescription} image = {greekSaladImage} />
-                        <MenuItemCard item = "Bruchetta" price = "$5.99" description = {bruchettaDescription} image = {bruschettaImage} />
-                        <MenuItemCard item = "Penne" price = "$14.99" description = {penneDescription} image = {penneImage} />
-                    </div>
-
-                 </div>
+            <div className = "grid-container" >
+                <h1 className = "primary-color-black-text" >This week's specials!</h1>
+                <button className = "primary-color-black-text primary-color-yellow">Online Menu</button>
+                <div id = "menu-item-card-container">
+                    <MenuItemCard item = "Greek Salad" price = "$12.99" description =  {greekSaladDescription} image = {greekSaladImage} />
+                    <MenuItemCard item = "Bruchetta" price = "$5.99" description = {bruchettaDescription} image = {bruschettaImage} />
+                    <MenuItemCard item = "Penne" price = "$14.99" description = {penneDescription} image = {penneImage} />
+                </div>
 
             </div>
         </section>
