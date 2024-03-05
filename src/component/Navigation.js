@@ -3,10 +3,10 @@ import "./Navigation.css"
 
 function Nav() {
     return (
-        <nav>
+        <nav id = "nav-bar">
             <ul>
                 <li>
-                    <img src = {logo} alt = "dessert" />
+                    <img src = {logo} alt = "Little Lemon Logo" />
 
                 </li>
                 <li>

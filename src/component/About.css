@@ -1,14 +1,14 @@
 #about-section {
-    height:  585px;
+    height:  713px;
 }
 
 #about-narrative {
     grid-column: 3 / span 4;
-    grid-row: 1;
+    grid-row: 2;
 }
 
 div#about-narrative h1 {
-    padding-top: 96px;
+ /*   padding-top: 96px; */
     margin: 0 0;
 }
 
@@ -38,7 +38,6 @@ div.about-grid-rows img:nth-child(2) {
     justify-self: start;
     object-position: right;
     border-radius: 16px;
-    
 }
 
 div.about-grid-rows img:nth-child(3) {
@@ -52,5 +51,5 @@ div.about-grid-rows img:nth-child(3) {
 }
 
 .about-grid-rows {
-    grid-template-rows: 128px 128px auto;
+    grid-template-rows: 128px 128px auto 128px;
 }

@@ -1,5 +1,5 @@
 
-nav {
+#nav-bar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,22 +7,20 @@ nav {
     height: 136px;
 }
 
-nav ul {
+#nav-bar ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: auto auto;
-    
-}
-
-nav ul li {
-    padding-right: 40px;
     list-style-type: none;
-
 }
 
-nav ul li a {
+#nav-bar ul li {
+    padding-right: 40px;
+}
+
+#nav-bar ul li a {
     text-decoration: none;
     font-family: Karla;
     font-size: 20px;

@@ -6,7 +6,6 @@ import "./About.css"
 function About() {
     return(
         <section id = "about-section">
-
                 <div className = "grid-container about-grid-rows" >
                     <div id = "about-narrative">
                         <h1 className = "primary-color-yellow-text">Little Lemon</h1>

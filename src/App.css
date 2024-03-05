@@ -78,7 +78,6 @@ p {
   height: 100%;
   column-gap: 20px;
   grid-template-columns: repeat(12, 1fr);
-  height: 100%;
 }
 
 .flex-container {
