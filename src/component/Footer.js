@@ -14,8 +14,8 @@ function Footer() {
                     Little Lemon Logo
                 </div>
                 <div id = "site-map" >
-                    <h3 class = "highlight-color-off-white-text">SITE MAP</h3>
-                    <ul class = "highlight-color-off-white-text" >
+                    <h3 className = "highlight-color-off-white-text">SITE MAP</h3>
+                    <ul className = "highlight-color-off-white-text" >
                         <li>
                             <a href = "#" >Home</a>
                         </li>
@@ -38,23 +38,24 @@ function Footer() {
                 </div>
 
                 <div id = "contact-info">
-                    <h3 class = "highlight-color-off-white-text">Contact Info</h3>
+                    <h3 className = "highlight-color-off-white-text">Contact Info</h3>
                     <FontAwesomeIcon className = "facebook-icon" icon = {faSquarePhone} size = "xl" />
-                    <p class = "highlight-color-off-white-text" style = {{display: "inline-block"}}>312-236-6296</p> <br></br>
+                    <p className = "highlight-color-off-white-text" style = {{display: "inline-block"}}>312-236-6296</p> <br></br>
 
                     <div id = "address-grid-container">
                         <div>
                             <FontAwesomeIcon className = "facebook-icon" icon = {faLocationDot} size = "xl" />
                         </div>
-                        <p class = "highlight-color-off-white-text">The Little Lemon </p>
-                        <p class = "highlight-color-off-white-text">815 Michigan Ave.</p>
-                        <p class = "highlight-color-off-white-text">Chicago, Ill. 60610</p>
+                        <p className = "highlight-color-off-white-text">The Little Lemon </p>
+                        <p className = "highlight-color-off-white-text">815 Michigan Ave.</p>
+                        <p className = "highlight-color-off-white-text">Chicago, Ill. 60610</p> 
                     </div>
-                    <FontAwesomeIcon className = "facebook-icon" icon = {faEnvelope} size = "xl" />
+                    <FontAwesomeIcon className = "facebook-icon" icon = {faEnvelope} size = "lg" />
+                    <p className = "highlight-color-off-white-text" style = {{display: "inline-block", fontSize: "14px", margin: "0 0"}}>Mario@LittleLemon.com</p>
                 </div>
 
                 <div id = "social-media" >
-                    <h3 class = "highlight-color-off-white-text">Social Media</h3>
+                    <h3 className = "highlight-color-off-white-text">Social Media</h3>
                     <FontAwesomeIcon className = "facebook-icon" icon = {faFacebook} size = "xl" />
                     <FontAwesomeIcon className = "facebook-icon" icon = {faInstagram} size = "xl" />
                     <FontAwesomeIcon className = "facebook-icon" icon = {faTwitter} size = "xl" />

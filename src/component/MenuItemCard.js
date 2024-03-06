@@ -6,12 +6,12 @@ function MenuItemCard({item, price, description, image}) {
     return(
         <div className = "menu-item-card"  >
             <img src = {image}  />
-            <div className = "highlight-color-off-white" style = {{width: "100%"}}>
+            <div className = "highlight-color-off-white"    >
                 <div>
                     <h3 className = "primary-color-black-text ">{item}</h3>
                     <h3 className = "secondary-color-dark-tan-text">{price}</h3>
                 </div>
-                <p>{description}</p>
+                <p className = "description">{description}</p>
                 <div>
                     <strong>Order a delivery</strong>
                     <img id = "delivery-image" src = {bike}  />

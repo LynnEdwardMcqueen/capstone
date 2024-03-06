@@ -2,13 +2,15 @@ div#rating-card {
     border: none; 
     height: 100%;
     max-width: 200px;
+    padding: 0 8px;
+    border-radius: 16px;
     /* margin-bottom: auto; */
 
 }
 
-div#rating-card p:first-child {
+div#rating-card p:first-of-type {
     margin-top: 0;
-    padding-top: 8px;
+    padding-top: 2rem;
 }
 
 div#rating-card div.flex-container {
@@ -17,4 +19,9 @@ div#rating-card div.flex-container {
 }
 .rating-font-size {
     font-size : 14px;
+}
+
+div#rating-card img {
+    object-fit : cover;
+    border-radius: 4px;
 }

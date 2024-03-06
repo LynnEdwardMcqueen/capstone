@@ -8,6 +8,19 @@
     align-items: stretch;
     column-gap: 20px;
 }
+@media screen and (max-width: 1300px) {
+    .testimonial-grid-container {
+        display: grid; 
+       /* display: flex; */
+        max-width: 1300px;
+        margin: 0 70px;
+        grid-template-columns: repeat(12, 1fr);
+        justify-content: center;
+        align-items: stretch;
+        column-gap: 20px;
+    }
+}
+
 section#testimonials {
     height : 560px;
 }
@@ -21,9 +34,6 @@ section#testimonials h1 {
 
 #foo {
     grid-column: 3 / span 2; 
-    /* display: flex; */
-    
-
 }
 
 #foo2 {

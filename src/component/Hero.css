@@ -36,6 +36,7 @@
 #hero-image {
     margin-top : 60px;
     border-radius: 16px;
+    width: 100%;
 }
 
 #hero-text Button {

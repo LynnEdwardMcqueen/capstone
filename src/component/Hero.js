@@ -4,7 +4,7 @@ import Button from "./Button"
 
 function Hero() {
     return(
-        <section id = "hero-section" class = "primary-color-green" >
+        <section id = "hero-section" className = "primary-color-green" >
                 <div className = "grid-container" >
                     <div id = "hero-text">
                         <h1 id = "hero-title" className = "primary-color-yellow-text">Little Lemon</h1>

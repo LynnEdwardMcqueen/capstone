@@ -6,14 +6,14 @@ import MikeDitka from "./../assets/images/mike-ditka.jpeg"
 import BarakObama from "./../assets/images/barak-obama.jpeg"
 
 function Testimonials() {
-    let alCaponeReview = "Whenever I am in the windy city, I love a little Bruchetta and ."
+    let alCaponeReview = "Whenever I am in the windy city, I love a little Bruchetta and one of the Little Lemon's excellent wines."
     let michaelJordanReview = "I'm bullish on everything on the Little Lemon menu.  I love the gyros, and their Sicilian dishes are incredible."
     let mikeDitkaReview = "I absolutely love the Little Lemon.  A little lasagna follewed by a bit of baklava is the best Chicago has to offer."
     let barakObamaReview = "I cannot say enough good things about the raviolli.  A true Chicago treasure."
 
     return(
-        <section id = "testimonials" className = "secondary-color-dark-tan">
-                <h1>Testimonials</h1>
+        <section id = "testimonials" className = "primary-color-green">
+                <h1 className = "highlight-color-off-white-text">Testimonials</h1>
 
                 <div className = "testimonial-grid-container " >
                     <div id = "foo">
@@ -26,7 +26,7 @@ function Testimonials() {
                         <RatingCard numberOfStars = "5" name = "Mike Ditka" review = {mikeDitkaReview} photo = {MikeDitka}/>
                     </div>
                     <div id = "foo3">
-                        <RatingCard numberOfStars = "5" name = "Barak Obama" review = {barakObamaReview} photo = {BarakObama} />
+                        <RatingCard numberOfStars = "4" name = "Barak Obama" review = {barakObamaReview} photo = {BarakObama} />
                     </div>
  
 

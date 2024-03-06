@@ -1,5 +1,6 @@
 div.menu-item-card {
     flex-basis: 274px;
+    
 }
 
 div.menu-item-card >  img {
@@ -10,13 +11,19 @@ div.menu-item-card >  img {
     width: 100%;
 }
 
+div.menu-item-card div {
+
+    width: 100%;
+}
+
 div.menu-item-card div div:nth-child(1) {
     display: flex;
-    flex-basis: 274px;
+    flex-basis: 234px;
     justify-content: space-between;
 }
-div.menu-item-card div p {
+p.description {
     height: 7em;
+    padding: 0 8px; 
 }
 
 #delivery-image {
@@ -25,3 +32,11 @@ div.menu-item-card div p {
     margin-left: 16px;
 }
 
+
+div.menu-item-card strong {
+    padding: 0 8px;
+}
+
+div.menu-item-card h3 {
+    padding: 0 8px;
+}
