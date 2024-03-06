@@ -1,5 +1,6 @@
 import "./Footer.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import monoLogo from "./../assets/images/MonoLogo.jpg";
 import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faSquarePhone, faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -11,7 +12,7 @@ function Footer() {
         <footer id = "footer-section" className = "primary-color-green" >
             <div className = "grid-container footer-grid-rows" >
                 <div id =  "logo">
-                    Little Lemon Logo
+                    <img src = {monoLogo} />
                 </div>
                 <div id = "site-map" >
                     <h3 className = "highlight-color-off-white-text">SITE MAP</h3>
