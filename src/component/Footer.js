@@ -1,17 +1,23 @@
 import "./Footer.css"
-import logo from "./../assets/images/Logo.svg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faSquarePhone, faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/brands.min.css" integrity="sha512-8RxmFOVaKQe/xtg6lbscU9DU0IRhURWEuiI0tXevv+lXbAHfkpamD4VKFQRto9WgfOJDwOZ74c/s9Yesv3VvIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 function Footer() {
     return (
         <footer id = "footer-section" className = "primary-color-green" >
             <div className = "grid-container footer-grid-rows" >
                 <div id =  "logo">
-                    <img id = "rotate" src = {logo} width = "221" height = "290" alt = "Big Logo"  />
+                    Little Lemon Logo
                 </div>
-                <div id = "site-map">
-                    <ul>
+                <div id = "site-map" >
+                    <h3 class = "highlight-color-off-white-text">SITE MAP</h3>
+                    <ul class = "highlight-color-off-white-text" >
                         <li>
-                            <a href = "#">Home</a>
+                            <a href = "#" >Home</a>
                         </li>
                         <li>
                             <a href = "#">About</a>
@@ -32,11 +38,28 @@ function Footer() {
                 </div>
 
                 <div id = "contact-info">
-                    Contact Info
+                    <h3 class = "highlight-color-off-white-text">Contact Info</h3>
+                    <FontAwesomeIcon className = "facebook-icon" icon = {faSquarePhone} size = "xl" />
+                    <p class = "highlight-color-off-white-text" style = {{display: "inline-block"}}>312-236-6296</p> <br></br>
+
+                    <div id = "address-grid-container">
+                        <div>
+                            <FontAwesomeIcon className = "facebook-icon" icon = {faLocationDot} size = "xl" />
+                        </div>
+                        <p class = "highlight-color-off-white-text">The Little Lemon </p>
+                        <p class = "highlight-color-off-white-text">815 Michigan Ave.</p>
+                        <p class = "highlight-color-off-white-text">Chicago, Ill. 60610</p>
+                    </div>
+                    <FontAwesomeIcon className = "facebook-icon" icon = {faEnvelope} size = "xl" />
                 </div>
 
                 <div id = "social-media" >
-                    Social Media
+                    <h3 class = "highlight-color-off-white-text">Social Media</h3>
+                    <FontAwesomeIcon className = "facebook-icon" icon = {faFacebook} size = "xl" />
+                    <FontAwesomeIcon className = "facebook-icon" icon = {faInstagram} size = "xl" />
+                    <FontAwesomeIcon className = "facebook-icon" icon = {faTwitter} size = "xl" />
+                    <FontAwesomeIcon className = "facebook-icon" icon = {faYoutube} size = "xl" />
+
                 </div>
             </div>
         </footer>
