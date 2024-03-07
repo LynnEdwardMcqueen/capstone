@@ -10,7 +10,7 @@ import { faSquarePhone, faLocationDot, faEnvelope } from "@fortawesome/free-soli
 function Footer() {
     return (
         <footer id = "footer-section" className = "primary-color-green" >
-            <div className = "grid-container footer-grid-rows" >
+            <div className = "grid-container-footer footer-grid-rows" >
                 <div id =  "logo">
                     <img src = {monoLogo} />
                 </div>
@@ -51,7 +51,7 @@ function Footer() {
                         <p className = "highlight-color-off-white-text">815 Michigan Ave.</p>
                         <p className = "highlight-color-off-white-text">Chicago, Ill. 60610</p> 
                     </div>
-                    <FontAwesomeIcon className = "facebook-icon" icon = {faEnvelope} size = "lg" />
+                    <FontAwesomeIcon className = "facebook-icon" icon = {faEnvelope} size = "sm" />
                     <p className = "highlight-color-off-white-text" style = {{display: "inline-block", fontSize: "14px", margin: "0 0"}}>Mario@LittleLemon.com</p>
                 </div>
 

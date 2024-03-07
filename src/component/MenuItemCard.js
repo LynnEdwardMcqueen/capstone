@@ -4,7 +4,7 @@ import bike from "../assets/images/bike-logo.jpg"
 function MenuItemCard({item, price, description, image}) {
 
     return(
-        <div className = "menu-item-card"  >
+        <div className = "menu-item-card highlight-color-off-white" >
             <img src = {image}  />
             <div className = "highlight-color-off-white"    >
                 <div>

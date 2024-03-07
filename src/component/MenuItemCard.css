@@ -1,5 +1,6 @@
 div.menu-item-card {
     flex-basis: 274px;
+    border-radius: 16px;
     
 }
 
@@ -11,9 +12,8 @@ div.menu-item-card >  img {
     width: 100%;
 }
 
-div.menu-item-card div {
-
-    width: 100%;
+div.menu-item-card > div {
+    margin: 0 11px;
 }
 
 div.menu-item-card div div:nth-child(1) {
@@ -23,20 +23,13 @@ div.menu-item-card div div:nth-child(1) {
 }
 p.description {
     height: 7em;
-    padding: 0 8px; 
+    /* padding: 0 8px;  */
 }
 
 #delivery-image {
     height: 20px;
     width: 20px;
-    margin-left: 16px;
+    margin-left: 16px
 }
 
 
-div.menu-item-card strong {
-    padding: 0 8px;
-}
-
-div.menu-item-card h3 {
-    padding: 0 8px;
-}

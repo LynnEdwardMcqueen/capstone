@@ -89,3 +89,14 @@
 div#logo {
     margin-top: 18.72px;
 }
+
+.grid-container-footer {
+    display: grid;
+      /* max-width: 1440px; */
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100%;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr .6fr 1fr .6fr 1.7fr .9fr 1.2fr repeat(3, 1fr);
+    height: 100%;
+  }
