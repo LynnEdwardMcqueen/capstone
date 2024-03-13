@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Karla');
-@import url('https://fonts.googleapis.com/css?family=Markazi');
+@import url('https://fonts.googleapis.com/css?family=Markazi Text');
 
 
 main {
@@ -7,9 +7,20 @@ main {
   background-color: #ffffff;
 }
 
+
 h1 {
-  font-family: Markazi;
+  border: 3px solid blue;
+  font-family: "Markazi Text";
   font-size: 64px;
+}
+
+
+@media screen and (max-width: 430px) {
+  h1 {
+    border: 3px solid red;
+    font-family: "Markazi Text";
+    font-size: 56px;
+  }
 }
 
 h2 {
@@ -80,6 +91,14 @@ p {
   }
 }
 
+@media screen and (max-width: 430px) {
+  grid-wrapper {
+    max-width: 430px; 
+    margin: 0 20px;
+    height: 100%;
+  }
+}
+
 .grid-container {
   display: grid;
     /* max-width: 1440px; */
@@ -100,6 +119,17 @@ p {
     column-gap: 20px;
     grid-template-columns: repeat(12, 1fr);
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .grid-container {
+    display: grid;
+    max-width: 430px;
+    margin: 0 16px;
+    height: 100%;
+    column-gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
   }
 }
 

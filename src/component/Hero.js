@@ -12,7 +12,7 @@ function Hero() {
                     <div id = "reservation-button" >
                         <Button id = "reservation-button" className = "primary-color-yellow primary-color-black-text" message = "Reserve a Table" />
                     </div>
-                    
+                
 
                     <div id = "hero-image-container">
                         <img src = {bruschetta} id = "hero-image"    />

@@ -14,7 +14,7 @@
 #hero-title {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 64px;
+
     grid-row: 3;
     grid-column: 3 / 7;
 }
@@ -82,6 +82,10 @@
 
 @media screen and (max-width: 890px) {
 
+    .hero-grid {
+        grid-template-rows: 16px 70px 64px 1.5fr 1fr;
+    }
+
     #hero-image-container {
         grid-column: 8 / 11;
         grid-row: 4 / 6;
@@ -90,15 +94,18 @@
 
     #hero-description {
         grid-column: 2 / 8;
+        grid-row: 4;
         width: 100%;
     }
 
     #hero-title {
         grid-column: 2 / 12;
+        grid-row: 2;
     }
 
     #hero-subtitle {
         grid-column: 2 / 6;
+        grid-row: 3;
     }
 
     #reservation-button {
@@ -107,4 +114,34 @@
     }
 }
 
+@media screen and (max-width: 430px) {
+    #hero-section {
+        height: 350px;
+    }
+
+    #hero-title {
+        grid-column: 1 / 13;
+
+    }
+
+    #hero-subtitle {
+        grid-column: 1 / 6;
+    }
+
+    #hero-description {
+        grid-column: 1 / 9;
+        width: 100%;
+    }
+
+    #hero-image-container {
+        grid-column: 9 / 13;
+        grid-row: 4 / 7;
+        justify-self: end;
+    }
+    #reservation-button {
+        grid-row:5;
+        grid-column: 1 / 7;
+        width: 100%;
+    }
+}
 
