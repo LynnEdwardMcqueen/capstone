@@ -1,6 +1,6 @@
 
 .hero-grid {
-    grid-template-rows: 40px 1fr 100px;
+    grid-template-rows: 60px 16px 88px 56px 1fr 1fr;
 }
 #hero-section {
     height: 440px;
@@ -12,20 +12,29 @@
 }
 
 #hero-title {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 64px;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    grid-row: 3;
+    grid-column: 3 / 7;
 }
 
 #hero-subtitle {
     font-size: 40px;
-    margin: 20px 0;
+    margin: 0;
+    grid-row: 4;
+    grid-column: 3 / 7;
 }
 
 #hero-description {
-    width: 58%;
+    width: 70%;
+    grid-row: 5;
+    grid-column: 3/7;
     font-size: 18px;
+    margin: 0;
 }
+
+
 #hero-image-container {
     grid-column: 7 / 11;
     grid-row: 2;
@@ -34,11 +43,68 @@
 }
 
 #hero-image {
-    margin-top : 60px;
     border-radius: 16px;
     width: 100%;
 }
 
-#hero-text Button {
+#reservation-button {
     width: 50%;
+    grid-row: 6;
+    grid-column: 3 / 7;
 }
+
+@media screen and (max-width: 1115px) {
+    #hero-title {
+        grid-column: 3 / 10;
+    }
+
+    #hero-image-container {
+        grid-column: 8 / 11;
+        grid-row: 3 / 6;
+        justify-self: end;
+    }
+
+    #hero-image {
+        border-radius: 16px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #hero-description {
+        grid-column: 3 / 7;
+        width: 100%;
+    }
+
+    #reservation-button {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 890px) {
+
+    #hero-image-container {
+        grid-column: 8 / 11;
+        grid-row: 4 / 6;
+        justify-self: end;
+    }
+
+    #hero-description {
+        grid-column: 2 / 8;
+        width: 100%;
+    }
+
+    #hero-title {
+        grid-column: 2 / 12;
+    }
+
+    #hero-subtitle {
+        grid-column: 2 / 6;
+    }
+
+    #reservation-button {
+        grid-column: 2 / 7;
+        width: 100%;
+    }
+}
+
+
